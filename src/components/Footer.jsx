@@ -4,7 +4,7 @@ function Footer() {
     <footer>
     <ul className="Footer-list">
     <li className="footer-item">
-        <a href="https://www.google.com">
+        <a href="https://www.linkedin.com/in/felipecv/">
           LinkedIn </a>
       </li>
       <li className="footer-item">
@@ -12,7 +12,7 @@ function Footer() {
           GitHub </a>
       </li>
       <li className="footer-item">
-        <a href="https://www.google.com">
+        <a href="https://twitter.com/felipewithf">
           X </a>
       </li>
     </ul>
