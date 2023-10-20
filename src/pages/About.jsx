@@ -1,19 +1,15 @@
 export default function Home() {
   return (
-    <div>
-      <h1>About Me Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+    <section>
+    <div className="felipe-image pb-5">
+      <img src="https://felipewithf.github.io/coding-portfolio/assets/images/felipe.png"></img>
+      </div>
+      <div>
+      <p className="shortText">
+      Award winning designer, currently working for a healthcare technology company in Toronto. 
+      I have been working hard on learning diverse tools and tech stacks so I can make my own designs come to live!
       </p>
     </div>
+    </section>
   );
 }

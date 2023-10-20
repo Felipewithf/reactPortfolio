@@ -1,42 +1,145 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/**** Primary page styles ****/
+/* global to make everything cohesive*/
+*{
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 105%;
+  background-color: #F5F2EB;
+ }
+
+ /* 70% makes the text feel nice in the screen */
+p{
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  color: black;
+  opacity: 70%;
+}
+
+a{
+  text-decoration: none;
+  color: darkolivegreen;
+  font-weight: 600;
+}
+
+/**** Header and Nav bar ****/
+/* added background so I can make this sticky */
+header{
+  background: rgb(245,242,235);
+  background: linear-gradient(180deg, rgba(245,242,235,1) 87%, rgba(245,242,235,0) 100%);
+  width: 100vw;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+h1{
+  padding: 20px 20px;
+  font-size: 220%;
+  color: black;
+  opacity: 50%;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none ;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  
+}
+
+li {
+  color: black;
+  opacity: 50%;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.active {
+  color: black;
+  opacity: 100%;
+}
+
+/**** Main Styles including portfolios ****/
+
+main {
+  display: flex;
+  justify-content: center
+}
+
+main>section {
+  /* border: 1px solid black; */
+  height: fit-content; 
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 100px;   
+  margin: 50px 0;
+  }
+  
+  .felipe-image{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .felipe-image img{
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+  }
+
+  .shortText{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+  }
+  
+
+
+/**** Portfolio ****/
+
+  .card-title{
+    font-size: 140%;
+    font-weight: 600;
+  }
+
+  .card-text{
+    font-size: large;
+    font-weight: 200;
+  }
+
+  .card-footer{
+    background: none;
+  }
+
+  /**** Resume ****/
+
+  h4{
+    opacity: 70%;
+  }
+
+  em{
+    font-size: x-large;
+
+  }
+/**** Footer ****/
+
+footer {
+  background-color: darkgrey;
   text-align: center;
+  width: 100%;
+  margin: 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+footer ul {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+footer ul li a{
+  font-weight: 400;
 }
