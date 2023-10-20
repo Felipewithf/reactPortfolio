@@ -1,4 +1,4 @@
-# Coding Portfolio
+# Portfolio made in React
 
 Display some of my coding projects in a react app
 
@@ -8,7 +8,7 @@ Create a portfolio of work where I can showcase my coding skills created on Reac
 
 ## Environments
 
-You can view the live portfolio using this link [https://felipewithf.github.io/challenge2-portfolio/](https://felipewithf.github.io/challenge2-portfolio/).
+You can view the live portfolio using this link https://felipes-portfolio.netlify.app/
 
 ## Tech stack
 
