@@ -125,6 +125,18 @@ main>section {
     font-size: x-large;
 
   }
+
+    /**** Contact ****/
+
+   form{
+      width: fit-content;
+    }
+
+    form label{
+      font-size: x-large;
+      margin-bottom: 10px;
+    }
+
 /**** Footer ****/
 
 footer {
