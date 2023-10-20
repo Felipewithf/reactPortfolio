@@ -58,16 +58,16 @@ const handleSubmit = (event) => {
       <h1>Contact</h1>
       <form onSubmit={handleSubmit}>
       <div className="form-group py-3">
-    <label for="InputName">Name</label>
+    <label htmlFor="InputName">Name</label>
     <input type="text" className="form-control" id="InputName" name="name" onChange={handleChange} value={name} placeholder=""/>
   </div>
   <div className="form-group py-3">
-    <label for="InputEmail">Email address</label>
+    <label htmlFor="InputEmail">Email address</label>
     <input type="email" className="form-control" id="InputEmail" name="email" onChange={handleChange} value={email} aria-describedby="emailHelp" placeholder=""/>
     <small id="emailHelp" className="form-text text-muted">Will never share your email with anyone else.</small>
   </div>
   <div className="form-group py-3">
-  <label for="message">Message</label>
+  <label htmlFor="message">Message</label>
     <textarea className="form-control" id="message" name="message" onChange={handleChange} value={message} rows="5"></textarea>
   </div>
 
