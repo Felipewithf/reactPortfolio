@@ -3,6 +3,17 @@ export default function Portfolio() {
     <div className="container pt-5">
       
       {/* {First row of cards} */}
+
+      <div className="card">
+    <img className="card-img-top" src="https://user-images.githubusercontent.com/130538145/282616421-6fe5e2b8-527b-410d-9ef9-a3a794054df2.png" alt="Card image cap"/>
+    <div className="card-body">
+      <h5 className="card-title">FitHub</h5>
+      <p className="card-text">An app that helps you manage your workouts! Everything you need to work on a healthier lifestyle can be found in one place.</p>
+    </div>
+    <div className="card-footer">
+    <a href="https://github.com/Eric-K-Smyth/FitHub" className="card-link" target="blank"><small className="text-muted">View Github Repo {">"}</small></a>
+    </div>
+      
       <div className="card-group">
   <div className="card">
     <img className="card-img-top" src="https://user-images.githubusercontent.com/93567778/276074466-d66aa773-9f84-4b31-958e-b925de84fb0e.png" alt="Card image cap"/>
@@ -24,7 +35,12 @@ export default function Portfolio() {
     <a href="https://github.com/temuts/BarkingBuddies" className="card-link" target="blank"><small className="text-muted">View Github Repo {">"}</small></a>
     </div>
   </div>
-  <div className="card">
+ 
+</div>
+{/* {Seconds row of cards Below} */}
+
+<div className="card-group pt-5">
+   <div className="card">
     <img className="card-img-top" src="https://user-images.githubusercontent.com/93567778/276071667-8fbe475e-63cf-4f21-8e4a-fd4518b8ed9c.png" alt="Card image cap"/>
     <div className="card-body">
       <h5 className="card-title">Machine Parts</h5>
@@ -34,10 +50,6 @@ export default function Portfolio() {
     <a href="https://github.com/Felipewithf/MachineParts" className="card-link" target="blank"><small className="text-muted">View Github Repo {">"}</small></a>
     </div>
   </div>
-</div>
-{/* {Seconds row of cards Below} */}
-
-<div className="card-group pt-5">
   <div className="card">
     <img className="card-img-top" src="https://raw.githubusercontent.com/Felipewithf/soccer-quiz/main/assets/images/correct.png" alt="Card image cap"/>
     <div className="card-body">
@@ -58,6 +70,11 @@ export default function Portfolio() {
     <a href="https://felipewithf.github.io/WeatherApp/" className="card-link" target="blank"><small className="text-muted">View Github Repo {">"}</small></a>
     </div>
   </div>
+
+</div>
+      {/* {Third row of cards Below} */}
+
+<div className="card-group pt-5">
   <div className="card">
     <img className="card-img-top" src="https://user-images.githubusercontent.com/93567778/276076479-3446b659-04d5-413d-a8de-5dd54c81ebb2.png" alt="Card image cap"/>
     <div className="card-body">
@@ -65,7 +82,7 @@ export default function Portfolio() {
       <p className="card-text">This webapp allows you to change backgrounds and avatars with the arrow keys (Avatars) and WASD (backgrounds). Done in JQuery</p>
     </div>
     <div className="card-footer">
-    <a href="https://github.com/Felipewithf/MachineParts" className="card-link" target="blank"><small className="text-muted">View Github Repo {">"}</small></a>
+    <a href="https://github.com/Felipewithf/avatar_background_tester" className="card-link" target="blank"><small className="text-muted">View Github Repo {">"}</small></a>
     </div>
   </div>
 </div>
